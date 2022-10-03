@@ -8,71 +8,125 @@
     <title>ଘ(੭ˊᵕˋ)੭</title>
   </head>
   <style>
-    audio {
-    }
+     audio {
+     }
 
-    .display {
-      display: flex;
-    }
-    .flex {
-      flex: 1;
-    }
-    .indent2 {
-      text-indent: 2em;
-    }
-    .indent4 {
-      text-indent: 4em;
-    }
-    p {
-      font-size: 45px;
-      color: rgb(202, 136, 136);
+     .display {
+       display: flex;
+     }
+     .flex {
+       flex: 1;
+     }
+     .indent2 {
+       text-indent: 2em;
+     }
+     .indent4 {
+       text-indent: 4em;
+     }
+     p {
+       font-size: 45px;
+       color: rgb(202, 136, 136);
 
-      line-height: 45px;
-      /* background-color: black;  */
-    }
-    .p1 {
-      margin: 5px 0px 0px 0px;
-    }
-    .p2 {
-      margin: 20px 5px 0px 0px;
-    }
-    .p3 {
-      margin: 1px 0px 0px 0px;
-    }
-    .p4 {
-      margin: 8px 0px 0px 0px;
-    }
-    .p5 {
-      margin: 2px 0px 0px 0px;
-    }
-    .p6 {
-      margin: 5px 0px 0px 0px;
-    }
-    .p7 {
-      margin: 4px 0px 0px 0px;
-    }
-    .p8 {
-      margin: 4px 0px 0px 0px;
-    }
-    .p9 {
-      margin: 4px 0px 0px 0px;
-    }
-    .p10 {
-      margin: 4px 0px 0px 0px;
-    }
+       line-height: 45px;
+       /* background-color: black;  */
+     }
+     .p1 {
+       margin: 5px 0px 0px 0px;
+     }
+     .p2 {
+       margin: 20px 5px 0px 0px;
+     }
+     .p3 {
+       margin: 1px 0px 0px 0px;
+     }
+     .p4 {
+       margin: 8px 0px 0px 0px;
+     }
+     .p5 {
+       margin: 2px 0px 0px 0px;
+     }
+     .p6 {
+       margin: 5px 0px 0px 0px;
+     }
+     .p7 {
+       margin: 4px 0px 0px 0px;
+     }
+     .p8 {
+       margin: 4px 0px 0px 0px;
+     }
+     .p9 {
+       margin: 4px 0px 0px 0px;
+     }
+     .p10 {
+       margin: 4px 0px 0px 0px;
+     }
 
-    body {
-      background-repeat: no-repeat;
-      background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg-qn.51miz.com%2Fpreview%2Fvideo%2F00%2F00%2F15%2F32%2FV-153247-341C21B9.jpg&refer=http%3A%2F%2Fimg-qn.51miz.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1667313963&t=646154fed4ae94d82a46a1a1e3d6a13e);
-    }
+     body {
+       background-repeat: no-repeat;
+       background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg-qn.51miz.com%2Fpreview%2Fvideo%2F00%2F00%2F15%2F32%2FV-153247-341C21B9.jpg&refer=http%3A%2F%2Fimg-qn.51miz.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1667313963&t=646154fed4ae94d82a46a1a1e3d6a13e);
+     }
 
-    .kun {
-      margin: 73px;
+     .kun {
+       margin: 73px;
+     }
+     /* 竖屏 */
+      @media screen and (orientation: portrait) {
+         html{
+            width : 100% ;
+            height : 100% ;
+             overflow : hidden;
+             /* background-color:yellow; */
+         }
+         body{
+             width : 100% ;
+            height : 100% ;
+           overflow : hidden;
+         }
+         #print{
+            position : absolute ;
+
+         }
+         .enterDiv{
+             height: 100%;
+              100%;
+             position: relative;
+             left: 0;
+         }
     }
+    /* 横屏 */
+    @media screen and (orientation: landscape) {
+           html{
+              width : 100% ;
+              height : 100% ;
+              /* background-color:red; */
+           }
+            body{
+               width : 100% ;
+              height : 100% ;
+           }
+           #print{
+             position : absolute ;
+             top : 0 ;
+             left : 0 ;
+             width : 100% ;
+             height : 100% ;
+          }
+         .backgroundEnter{
+              100%;
+             position: absolute;
+             top: 0;
+             left: 0;
+         }
+     }
+     #print span{
+       margin: auto ;
+       margin-top : 20px ;
+       text-align: center;
+     }
   </style>
   <body>
     <div>
-      <audio
+      <!-- <audio
         autoplay="autoplay"
         controls="controls"
         loop="loop"
@@ -80,7 +134,16 @@
         src="http://m801.music.126.net/20221003221158/7b9b21b138574076a0fe8176d5841176/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19811590709/af22/28a9/b8f0/5a06ae33242c724d87ee121e12ad1af4.mp3"
       >
         你的浏览器版本太低，不支持audio标签
-      </audio>
+      </audio> -->
+      <iframe
+        frameborder="no"
+        border="0"
+        marginwidth="0"
+        marginheight="0"
+        width="298"
+        height="52"
+        src="//music.163.com/outchain/player?type=2&id=1985997400&auto=1&height=32"
+      ></iframe>
     </div>
 
     <div class="kun">
